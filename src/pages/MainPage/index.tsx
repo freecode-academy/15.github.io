@@ -1,13 +1,14 @@
 import { NextSeo } from 'next-seo'
 
 import { Page } from '../_App/interfaces'
+import { Game15Page } from './View'
 
 export const MainPage: Page = () => {
   return (
     <>
-      <NextSeo title="Main page" description="Main page description" />
+      <NextSeo title="15 Game" description="Main page description" />
 
-      <div>Main Page</div>
+      <Game15Page />
     </>
   )
 }
